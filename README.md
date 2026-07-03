@@ -72,6 +72,7 @@ CafeteriaUaemex/
 
 <p align="center">
     <img src="target/CafeteriaUaemex-1.0-SNAPSHOT/img/capturaweb2.jpg" width="850">
+    <img src="target/CafeteriaUaemex-1.0-SNAPSHOT/img/capturaweb3.jpg" width="850">
 </p>
 
 ---
@@ -79,7 +80,7 @@ CafeteriaUaemex/
 ### Administración del sistema
 
 <p align="center">
-    <img src="target/CafeteriaUaemex-1.0-SNAPSHOT/img/capturaweb3.jpg" width="850">
+    <img src="target/CafeteriaUaemex-1.0-SNAPSHOT/img/capturawebadmin.jpg" width="850">
 </p>
 
 ---
