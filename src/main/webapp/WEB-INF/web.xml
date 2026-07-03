@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="6.0"
+    xmlns="https://jakarta.ee/xml/ns/jakartaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd">
+
+    <session-config>
+        <session-timeout>30</session-timeout>
+    </session-config>
+
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>servlet.LoginServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ProductosServlet</servlet-name>
+        <servlet-class>servlet.ProductosServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ProductosServlet</servlet-name>
+        <url-pattern>/ProductosServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CarritoServlet</servlet-name>
+        <servlet-class>servlet.CarritoServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>CarritoServlet</servlet-name>
+        <url-pattern>/CarritoServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>PedidoServlet</servlet-name>
+        <servlet-class>servlet.PedidoServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>PedidoServlet</servlet-name>
+        <url-pattern>/PedidoServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DetallePedidoServlet</servlet-name>
+        <servlet-class>servlet.DetallePedidoServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>DetallePedidoServlet</servlet-name>
+        <url-pattern>/DetallePedidoServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CancelarServlet</servlet-name>
+        <servlet-class>servlet.CancelarServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>CancelarServlet</servlet-name>
+        <url-pattern>/CancelarServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LogoutServlet</servlet-name>
+        <servlet-class>servlet.LogoutServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>LogoutServlet</servlet-name>
+        <url-pattern>/LogoutServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ProductoServlet</servlet-name>
+        <servlet-class>servlet.ProductoServlet</servlet-class>
+        <multipart-config>
+            <max-file-size>10485760</max-file-size>
+            <max-request-size>20971520</max-request-size>
+        </multipart-config>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ProductoServlet</servlet-name>
+        <url-pattern>/ProductoServlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>RecomendadosAPI</servlet-name>
+        <servlet-class>api.RecomendadosAPI</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>RecomendadosAPI</servlet-name>
+        <url-pattern>/api/recomendados</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ImagenServlet</servlet-name>
+        <servlet-class>servlet.ImagenServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ImagenServlet</servlet-name>
+        <url-pattern>/imagenes/*</url-pattern>
+    </servlet-mapping>
+    
+   <servlet>
+    <servlet-name>EliminarProductoServlet</servlet-name>
+    <servlet-class>servlet.EliminarProductoServlet</servlet-class>
+   </servlet>
+
+    <servlet-mapping>
+        <servlet-name>EliminarProductoServlet</servlet-name>
+        <url-pattern>/EliminarProductoServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+    <servlet-name>EditarProductoServlet</servlet-name>
+    <servlet-class>servlet.EditarProductoServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>EditarProductoServlet</servlet-name>
+    <url-pattern>/EditarProductoServlet</url-pattern>
+</servlet-mapping>
+    
+    <servlet>
+    <servlet-name>UsuarioServlet</servlet-name>
+    <servlet-class>servlet.UsuarioServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>UsuarioServlet</servlet-name>
+    <url-pattern>/UsuarioServlet</url-pattern>
+</servlet-mapping>
+    
+ <servlet>
+    <servlet-name>EliminarUsuarioServlet</servlet-name>
+    <servlet-class>servlet.EliminarUsuarioServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>EliminarUsuarioServlet</servlet-name>
+    <url-pattern>/EliminarUsuarioServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>EditarUsuarioServlet</servlet-name>
+    <servlet-class>servlet.EditarUsuarioServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>EditarUsuarioServlet</servlet-name>
+    <url-pattern>/EditarUsuarioServlet</url-pattern>
+</servlet-mapping>   
+         
+</web-app>

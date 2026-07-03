@@ -1,0 +1,84 @@
+/* BODY */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #eae4db, #f5f1ea);
+}
+
+/* HEADER */
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background: #4b2e2b;
+    color: white;
+
+    padding: 15px 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    box-sizing: border-box;
+}
+
+/* TEXTO */
+.header-left {
+    font-weight: 600;
+}
+
+/* BOTÓN LOGOUT */
+.btn-logout {
+    background: red;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 13px;
+
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.btn-logout:hover {
+    background: darkred;
+}
+
+/* FOOTER */
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #4b2e2b;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0;
+}
+
+.footer a {
+    color: white;
+}
+
+.footer i {
+    font-size: 22px;
+}
+
+/* CONTADOR */
+.badge {
+    position:absolute;
+    top:-8px;
+    right:-10px;
+    background:red;
+    color:white;
+    border-radius:50%;
+    padding:3px 6px;
+    font-size:12px;
+}
+
+/* MAIN ESPACIO */
+.main {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}

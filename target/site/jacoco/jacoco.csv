@@ -1,0 +1,11 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+CafeteriaUaemex,dao,Conexion,11,8,0,0,5,2,1,1,1,1
+CafeteriaUaemex,dao,UsuarioDAO,9,94,1,3,4,31,1,3,0,2
+CafeteriaUaemex,dao,ProductoDAO,3,64,0,2,2,21,0,3,0,2
+CafeteriaUaemex,modelo,UsuarioBuilder,0,47,0,0,0,16,0,8,0,8
+CafeteriaUaemex,modelo,ProductoBuilder,0,41,0,0,0,14,0,7,0,7
+CafeteriaUaemex,modelo,ProductoCarrito,0,53,0,0,0,21,0,11,0,11
+CafeteriaUaemex,modelo,ProductoFactory,14,12,3,1,6,5,4,1,1,1
+CafeteriaUaemex,modelo,UsuarioFactory,17,22,4,2,7,7,5,1,1,1
+CafeteriaUaemex,modelo,Producto,0,56,0,0,0,24,0,12,0,12
+CafeteriaUaemex,modelo,Usuario,0,52,0,0,0,22,0,15,0,15
