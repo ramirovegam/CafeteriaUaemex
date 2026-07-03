@@ -63,7 +63,7 @@ CafeteriaUaemex/
 ### Pantalla principal
 
 <p align="center">
-    <img src="capturas/captura1.png" width="850">
+    <img src="target/CafeteriaUaemex-1.0-SNAPSHOT/img/capturaweb1.jpg" width="850">
 </p>
 
 ---
@@ -71,7 +71,7 @@ CafeteriaUaemex/
 ### Gestión de pedidos
 
 <p align="center">
-    <img src="capturas/captura2.png" width="850">
+    <img src="target/CafeteriaUaemex-1.0-SNAPSHOT/img/capturaweb2.jpg" width="850">
 </p>
 
 ---
@@ -79,7 +79,7 @@ CafeteriaUaemex/
 ### Administración del sistema
 
 <p align="center">
-    <img src="capturas/captura3.png" width="850">
+    <img src="target/CafeteriaUaemex-1.0-SNAPSHOT/img/capturaweb3.jpg" width="850">
 </p>
 
 ---
